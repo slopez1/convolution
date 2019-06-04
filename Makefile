@@ -19,16 +19,16 @@ test_mpi:
 	./MPI/run-mpi 01_25 8 im01.ppm  kernel25x25_random.txt
 	./MPI/run-mpi 01_49 8 im01.ppm  kernel49x49_random.txt
 	./MPI/run-mpi 01_99 8 im01.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 01_3 16 im01.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 01_5 16 im01.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 01_25 16 im01.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 01_49 16 im01.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 01_99 16 im01.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 01_3 32 im01.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 01_5 32 im01.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 01_25 32 im01.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 01_49 32 im01.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 01_99 32 im01.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 01_3 16 im01.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 01_5 16 im01.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 01_25 16 im01.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 01_49 16 im01.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 01_99 16 im01.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 01_3 32 im01.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 01_5 32 im01.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 01_25 32 im01.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 01_49 32 im01.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 01_99 32 im01.ppm  kernel99x99_random.txt
 
 
 	./MPI/run-mpi 02_3 4 im02.ppm  kernel3x3_Edge.txt
@@ -41,16 +41,16 @@ test_mpi:
 	./MPI/run-mpi 02_25 8 im02.ppm  kernel25x25_random.txt
 	./MPI/run-mpi 02_49 8 im02.ppm  kernel49x49_random.txt
 	./MPI/run-mpi 02_99 8 im02.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 02_3 16 im02.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 02_5 16 im02.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 02_25 16 im02.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 02_49 16 im02.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 02_99 16 im02.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 02_3 32 im02.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 02_5 32 im02.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 02_25 32 im02.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 02_49 32 im02.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 02_99 32 im02.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 02_3 16 im02.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 02_5 16 im02.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 02_25 16 im02.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 02_49 16 im02.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 02_99 16 im02.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 02_3 32 im02.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 02_5 32 im02.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 02_25 32 im02.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 02_49 32 im02.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 02_99 32 im02.ppm  kernel99x99_random.txt
 
 
 	./MPI/run-mpi 03_3 4 im03.ppm  kernel3x3_Edge.txt
@@ -63,16 +63,16 @@ test_mpi:
 	./MPI/run-mpi 03_25 8 im03.ppm  kernel25x25_random.txt
 	./MPI/run-mpi 03_49 8 im03.ppm  kernel49x49_random.txt
 	./MPI/run-mpi 03_99 8 im03.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 03_3 16 im03.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 03_5 16 im03.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 03_25 16 im03.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 03_49 16 im03.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 03_99 16 im03.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 03_3 32 im03.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 03_5 32 im03.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 03_25 32 im03.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 03_49 32 im03.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 03_99 32 im03.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 03_3 16 im03.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 03_5 16 im03.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 03_25 16 im03.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 03_49 16 im03.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 03_99 16 im03.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 03_3 32 im03.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 03_5 32 im03.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 03_25 32 im03.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 03_49 32 im03.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 03_99 32 im03.ppm  kernel99x99_random.txt
 
 
 	./MPI/run-mpi 04_3 4 im04.ppm  kernel3x3_Edge.txt
@@ -85,16 +85,16 @@ test_mpi:
 	./MPI/run-mpi 04_25 8 im04.ppm  kernel25x25_random.txt
 	./MPI/run-mpi 04_49 8 im04.ppm  kernel49x49_random.txt
 	./MPI/run-mpi 04_99 8 im04.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 04_3 16 im04.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 04_5 16 im04.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 04_25 16 im04.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 04_49 16 im04.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 04_99 16 im04.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 04_3 32 im04.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 04_5 32 im04.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 04_25 32 im04.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 04_49 32 im04.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 04_99 32 im04.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 04_3 16 im04.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 04_5 16 im04.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 04_25 16 im04.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 04_49 16 im04.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 04_99 16 im04.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 04_3 32 im04.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 04_5 32 im04.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 04_25 32 im04.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 04_49 32 im04.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 04_99 32 im04.ppm  kernel99x99_random.txt
 
 
 	./MPI/run-mpi 05_3 4 im05.ppm  kernel3x3_Edge.txt
@@ -107,16 +107,16 @@ test_mpi:
 	./MPI/run-mpi 05_25 8 im05.ppm  kernel25x25_random.txt
 	./MPI/run-mpi 05_49 8 im05.ppm  kernel49x49_random.txt
 	./MPI/run-mpi 05_99 8 im05.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 05_3 16 im05.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 05_5 16 im05.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 05_25 16 im05.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 05_49 16 im05.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 05_99 16 im05.ppm  kernel99x99_random.txt
-	./MPI/run-mpi 05_3 32 im05.ppm  kernel3x3_Edge.txt
-	./MPI/run-mpi 05_5 32 im05.ppm  kernel5x5_Sharpen.txt
-	./MPI/run-mpi 05_25 32 im05.ppm  kernel25x25_random.txt
-	./MPI/run-mpi 05_49 32 im05.ppm  kernel49x49_random.txt
-	./MPI/run-mpi 05_99 32 im05.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 05_3 16 im05.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 05_5 16 im05.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 05_25 16 im05.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 05_49 16 im05.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 05_99 16 im05.ppm  kernel99x99_random.txt
+#	./MPI/run-mpi 05_3 32 im05.ppm  kernel3x3_Edge.txt
+#	./MPI/run-mpi 05_5 32 im05.ppm  kernel5x5_Sharpen.txt
+#	./MPI/run-mpi 05_25 32 im05.ppm  kernel25x25_random.txt
+#	./MPI/run-mpi 05_49 32 im05.ppm  kernel49x49_random.txt
+#	./MPI/run-mpi 05_99 32 im05.ppm  kernel99x99_random.txt
 
 
 #	./MPI/run-mpi 06_3 4 im06.ppm  kernel3x3_Edge.txt
