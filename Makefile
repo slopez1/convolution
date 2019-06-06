@@ -171,80 +171,154 @@ test_omp:
 	./OMP/run-omp 05_49 4 im05.ppm  kernel49x49_random.txt
 
 test_hybrid:
-	./HYBRID/run-hybrid 01_3 1 im01.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 01_5 1 im01.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 01_25 1 im01.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 01_49 1 im01.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 01_3 4 1 im01.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 01_5 4 1 im01.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 01_25 4 1 im01.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 01_49 4 1 im01.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 01_3 2 im01.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 01_5 2 im01.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 01_25 2 im01.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 01_49 2 im01.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 01_3 4 2 im01.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 01_5 4 2 im01.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 01_25 4 2 im01.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 01_49 4 2 im01.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 01_3 4 im01.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 01_5 4 im01.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 01_25 4 im01.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 01_49 4 im01.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 01_3 4 4 im01.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 01_5 4 4 im01.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 01_25 4 4 im01.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 01_49 4 4 im01.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 02_3 1 im02.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 02_5 1 im02.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 02_25 1 im02.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 02_49 1 im02.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 02_3 4 1 im02.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 02_5 4 1 im02.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 02_25 4 1 im02.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 02_49 4 1 im02.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 02_3 2 im02.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 02_5 2 im02.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 02_25 2 im02.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 02_49 2 im02.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 02_3 4 2 im02.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 02_5 4 2 im02.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 02_25 4 2 im02.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 02_49 4 2 im02.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 02_3 4 im02.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 02_5 4 im02.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 02_25 4 im02.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 02_49 4 im02.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 02_3 4 4 im02.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 02_5 4 4 im02.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 02_25 4 4 im02.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 02_49 4 4 im02.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 03_3 1 im03.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 03_5 1 im03.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 03_25 1 im03.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 03_49 1 im03.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 03_3 4 1 im03.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 03_5 4 1 im03.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 03_25 4 1 im03.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 03_49 4 1 im03.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 03_3 2 im03.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 03_5 2 im03.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 03_25 2 im03.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 03_49 2 im03.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 03_3 4 2 im03.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 03_5 4 2 im03.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 03_25 4 2 im03.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 03_49 4 2 im03.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 03_3 4 im03.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 03_5 4 im03.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 03_25 4 im03.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 03_49 4 im03.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 03_3 4 4 im03.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 03_5 4 4 im03.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 03_25 4 4 im03.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 03_49 4 4 im03.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 04_3 1 im04.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 04_5 1 im04.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 04_25 1 im04.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 04_49 1 im04.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 04_3 4 1 im04.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 04_5 4 1 im04.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 04_25 4 1 im04.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 04_49 4 1 im04.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 04_3 2 im04.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 04_5 2 im04.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 04_25 2 im04.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 04_49 2 im04.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 04_3 4 2 im04.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 04_5 4 2 im04.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 04_25 4 2 im04.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 04_49 4 2 im04.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 04_3 4 im04.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 04_5 4 im04.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 04_25 4 im04.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 04_49 4 im04.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 04_3 4 4 im04.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 04_5 4 4 im04.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 04_25 4 4 im04.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 04_49 4 4 im04.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 05_3 1 im05.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 05_5 1 im05.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 05_25 1 im05.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 05_49 1 im05.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 05_3 4 1 im05.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 05_5 4 1 im05.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 05_25 4 1 im05.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 05_49 4 1 im05.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 05_3 2 im05.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 05_5 2 im05.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 05_25 2 im05.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 05_49 2 im05.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 05_3 4 2 im05.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 05_5 4 2 im05.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 05_25 4 2 im05.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 05_49 4 2 im05.ppm  kernel49x49_random.txt
 
-	./HYBRID/run-hybrid 05_3 4 im05.ppm  kernel3x3_Edge.txt
-	./HYBRID/run-hybrid 05_5 4 im05.ppm  kernel5x5_Sharpen.txt
-	./HYBRID/run-hybrid 05_25 4 im05.ppm  kernel25x25_random.txt
-	./HYBRID/run-hybrid 05_49 4 im05.ppm  kernel49x49_random.txt
+	./HYBRID/run-hybrid 05_3 4 4 im05.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 05_5 4 4 im05.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 05_25 4 4 im05.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 05_49 4 4 im05.ppm  kernel49x49_random.txt
 
+	./HYBRID/run-hybrid 01_3 8 1 im01.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 01_5 8 1 im01.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 01_25 8 1 im01.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 01_49 8 1 im01.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 01_3 8 2 im01.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 01_5 8 2 im01.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 01_25 8 2 im01.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 01_49 8 2 im01.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 01_3 8 4 im01.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 01_5 8 4 im01.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 01_25 8 4 im01.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 01_49 8 4 im01.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 02_3 8 1 im02.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 02_5 8 1 im02.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 02_25 8 1 im02.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 02_49 8 1 im02.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 02_3 8 2 im02.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 02_5 8 2 im02.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 02_25 8 2 im02.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 02_49 8 2 im02.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 02_3 8 4 im02.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 02_5 8 4 im02.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 02_25 8 4 im02.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 02_49 8 4 im02.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 03_3 8 1 im03.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 03_5 8 1 im03.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 03_25 8 1 im03.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 03_49 8 1 im03.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 03_3 8 2 im03.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 03_5 8 2 im03.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 03_25 8 2 im03.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 03_49 8 2 im03.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 03_3 8 4 im03.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 03_5 8 4 im03.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 03_25 8 4 im03.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 03_49 8 4 im03.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 04_3 8 1 im04.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 04_5 8 1 im04.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 04_25 8 1 im04.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 04_49 8 1 im04.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 04_3 8 2 im04.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 04_5 8 2 im04.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 04_25 8 2 im04.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 04_49 8 2 im04.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 04_3 8 4 im04.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 04_5 8 4 im04.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 04_25 8 4 im04.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 04_49 8 4 im04.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 05_3 8 1 im05.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 05_5 8 1 im05.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 05_25 8 1 im05.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 05_49 8 1 im05.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 05_3 8 2 im05.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 05_5 8 2 im05.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 05_25 8 2 im05.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 05_49 8 2 im05.ppm  kernel49x49_random.txt
+
+	./HYBRID/run-hybrid 05_3 8 4 im05.ppm  kernel3x3_Edge.txt
+	./HYBRID/run-hybrid 05_5 8 4 im05.ppm  kernel5x5_Sharpen.txt
+	./HYBRID/run-hybrid 05_25 8 4 im05.ppm  kernel25x25_random.txt
+	./HYBRID/run-hybrid 05_49 8 4 im05.ppm  kernel49x49_random.txt
 clean:
 	rm ./SERIAL/serial ./MPI/mpi ./OMP/omp ./HYBRID/hybrid

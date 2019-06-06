@@ -1,0 +1,3 @@
+#!/bin/bash
+sed -e 's/$NAME/'$1'/g' -e 's/$THREADS/'$2'/g'  -e 's/$OMP_THREADS/'$3'/g' -e 's/$IMG/'$4'/g' -e 's/$KERNEL/'$5'/g'   HYBRID/hybrid_script_generic.sh > HYBRID/hybrid_script.sh
+qsub ./HYBRID/hybrid_script.sh
