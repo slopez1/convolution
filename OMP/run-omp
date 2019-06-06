@@ -1,1 +1,1 @@
-qsub -S /bin/bash -V -wd $HOME/convolution/OMP/results -N OMP_$1 -b y  $HOME/convolution/OMP/omp /share/apps/files/convolution/images/$2 /share/apps/files/convolution/kernel/$3 /dev/null 4
+qsub -S /bin/bash -V -wd $HOME/convolution/OMP/results -N OMP_$1_$2 -v OMP_NUM_THREADS=$2 -b y $HOME/convolution/OMP/omp /share/apps/files/convolution/images/$3 /share/apps/files/convolution/kernel/$4 /dev/null 4
