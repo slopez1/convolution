@@ -13,7 +13,7 @@
 #$ -pe mpich 8
 
 ## The  name  of  the  job.
-#$ -N MPI_05_99_8
+#$ -N MPI_05_49_8
 
 ## The folders to save the standard and error outputs.
 #$ -o $HOME/convolution/MPI/results
@@ -24,7 +24,7 @@ cat $PE_HOSTFILE | awk '{print $1":"$2}' > $MPICH_MACHINES
 
 
 ## In this line you have to write the command that will execute your application.
-mpiexec -f $MPICH_MACHINES -n $NSLOTS $HOME/convolution/MPI/mpi /share/apps/files/convolution/images/im05.ppm /share/apps/files/convolution/kernel/kernel99x99_random.txt /dev/null 8
+mpiexec -f $MPICH_MACHINES -n $NSLOTS $HOME/convolution/MPI/mpi /share/apps/files/convolution/images/im05.ppm /share/apps/files/convolution/kernel/kernel49x49_random.txt /dev/null 8
 
 rm -rf $MPICH_MACHINES
 

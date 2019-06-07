@@ -10,13 +10,13 @@
 #$ -wd $HOME/convolution/HYBRID/results
 
 ## Parallel programming environment (mpich) to instantiate and number of computing slots.
-#$ -pe mpich-smp $THREADS
+#$ -pe mpich-smp 8
 
 ## Passes an enviroment variable to the job
-#$ -v OMP_NUM_THREADS=$OMP_THREADS
+#$ -v OMP_NUM_THREADS=4
 
 ## The  name  of  the  job.
-#$ -N HYBRID_$NAME_$THREADS_$OMP_THREADS
+#$ -N HYBRID_05_49_8_4
 
 ## The folders to save the standard and error outputs.
 #$ -o $HOME/convolution/HYBRID/results
@@ -27,7 +27,7 @@ cat $PE_HOSTFILE | awk '{print $1":"$2}' > $MPICH_MACHINES
 
 
 ## In this line you have to write the command that will execute your application.
-mpiexec -f $MPICH_MACHINES -n $NHOSTS $HOME/convolution/HYBRID/hybrid /share/apps/files/convolution/images/$IMG /share/apps/files/convolution/kernel/$KERNEL /dev/null $THREADS
+mpiexec -f $MPICH_MACHINES -n $NSLOTS $HOME/convolution/HYBRID/hybrid /share/apps/files/convolution/images/im05.ppm /share/apps/files/convolution/kernel/kernel49x49_random.txt /dev/null 8
 
 rm -rf $MPICH_MACHINES
 

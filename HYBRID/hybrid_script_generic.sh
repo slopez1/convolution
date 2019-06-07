@@ -27,7 +27,7 @@ cat $PE_HOSTFILE | awk '{print $1":"$2}' > $MPICH_MACHINES
 
 
 ## In this line you have to write the command that will execute your application.
-mpiexec -f $MPICH_MACHINES -n $NHOSTS $HOME/convolution/HYBRID/hybrid /share/apps/files/convolution/images/$IMG /share/apps/files/convolution/kernel/$KERNEL /dev/null $THREADS
+mpiexec -f $MPICH_MACHINES -n $NSLOTS $HOME/convolution/HYBRID/hybrid /share/apps/files/convolution/images/$IMG /share/apps/files/convolution/kernel/$KERNEL /dev/null $THREADS
 
 rm -rf $MPICH_MACHINES
 
